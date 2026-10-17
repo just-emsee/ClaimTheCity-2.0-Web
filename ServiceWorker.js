@@ -1,9 +1,9 @@
 const cacheName = "EmSee-ClaimTheCity 2.0-2.0";
 const contentToCache = [
     "Build/ClaimTheCity 2.0 Web.loader.js",
-    "Build/ClaimTheCity 2.0 Web.framework.js",
-    "Build/ClaimTheCity 2.0 Web.data",
-    "Build/ClaimTheCity 2.0 Web.wasm",
+    "Build/ClaimTheCity 2.0 Web.framework.js.gz",
+    "Build/ClaimTheCity 2.0 Web.data.gz",
+    "Build/ClaimTheCity 2.0 Web.wasm.gz",
     "TemplateData/style.css"
 
 ];

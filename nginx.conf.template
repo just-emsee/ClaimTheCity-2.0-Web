@@ -23,42 +23,42 @@ server {
 
     # Gzip-compressed WebAssembly.
     location ~* \.wasm\.gz$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding gzip;
         default_type application/wasm;
     }
 
     # Brotli-compressed WebAssembly.
     location ~* \.wasm\.br$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding br;
         default_type application/wasm;
     }
 
     # Gzip-compressed Unity JavaScript.
     location ~* \.js\.gz$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding gzip;
         default_type application/javascript;
     }
 
     # Brotli-compressed Unity JavaScript.
     location ~* \.js\.br$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding br;
         default_type application/javascript;
     }
 
     # Gzip-compressed Unity data files.
     location ~* \.(data|symbols\.json)\.gz$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding gzip;
         default_type application/octet-stream;
     }
 
     # Brotli-compressed Unity data files.
     location ~* \.(data|symbols\.json)\.br$ {
-        gzip off;
+        gzip on;
         add_header Content-Encoding br;
         default_type application/octet-stream;
     }

@@ -1,4 +1,3 @@
-
 server {
     listen ${PORT};
     server_name _;

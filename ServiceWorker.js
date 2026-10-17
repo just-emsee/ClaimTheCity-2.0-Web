@@ -1,4 +1,4 @@
-const cacheName = "Saxion CMGT Networking-MiniTown-1";
+const cacheName = "EmSee-ClaimTheCity 2.0-2.0";
 const contentToCache = [
     "Build/ClaimTheCity 2.0 Web.loader.js",
     "Build/ClaimTheCity 2.0 Web.framework.js",
